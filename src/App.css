@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #14213d;
+  color: #caf0f8;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: aliceblue;
+}
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+color: #e2e2e2;}
+
+.coin-input::placeholder {
+  color: yellow;
+}
